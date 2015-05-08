@@ -3,10 +3,40 @@
 <head>
 	<meta charset="UTF-8">
 	<title>A Coding Monkey</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link href='http://fonts.useso.com/css?family=Orbitron' rel='stylesheet' type='text/css'>	
+	<link rel="stylesheet" href="watch.css">
 </head>
 <body>
-	<h1>Coding the World as It Should Be</h1>
-	<p>Be the first page in github.io</p>
+	
+	
+	<section>
+		<input type="radio" name="controls" id="start">
+		<input type="radio" name="controls" id="stop">
+		<input type="radio" name="controls" id="reset">
+	
+
+		<div class="stopwatch">
+			<div class="cell"><span class="num ten ten_hour">0 1 2 3 4 5 6 7 8 9</span></div>
+			<div class="cell"><span class="num ten hour">0 1 2 3 4 5 6 7 8 9</span></div>
+			<div class="cell"><span class="num">:</span></div>
+			<div class="cell"><span class="num six ten_minu">0 1 2 3 4 5</span></div>
+			<div class="cell"><span class="num ten minu">0 1 2 3 4 5 6 7 8 9</span></div>
+			<div class="cell"><span class="num">:</span></div>
+			<div class="cell"><span class="num six ten_sec">0 1 2 3 4 5</span></div>
+			<div class="cell"><span class="num ten sec">0 1 2 3 4 5 6 7 8 9</span></div>
+			<div class="cell"><span class="num">:</span></div>
+			<div class="cell"><span class="num ten hund_mill">0 1 2 3 4 5 6 7 8 9</span></div>
+			<div class="cell"><span class="num ten ten_mill">0 1 2 3 4 5 6 7 8 9</span></div>
+			<div class="cell"><span class="num ten mull">0 1 2 3 4 5 6 7 8 9</span></div>
+		</div>
+
+		<div class="control">
+			<label for="start">Start</label>
+			<label for="stop">Stop</label>
+			<label for="reset">Reset</label>
+		</div>
+
+	</section>
+
 </body>
 </html>
