@@ -23,7 +23,7 @@ unpublished: false
 
 # Plugins
 whitelist: []
-gems:      [jekyll-paginate, pygments.rb]
+plugins: [jekyll-paginate, pygments.rb]
 
 # Conversion
 markdown:    kramdown
